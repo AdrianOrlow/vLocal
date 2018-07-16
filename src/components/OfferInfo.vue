@@ -68,7 +68,7 @@
                         <div class="contact__chat" v-if="useruid" v-bind:class="{ 'block--blur': !messaging}">
                             <div class="contact__chat__top">
                                 <div class="contact__chat__top__container">
-                                    <img class="contact__chat__img" style="height: 100%; vertical-align: middle;" :src="userInfo.profileimg" :alt="userInfo.name">
+                                    <img class="contact__chat__img" style="height: 100%; vertical-align: middle; margin-right: .5em;" :src="userInfo.profileimg" :alt="userInfo.name">
                                     {{userInfo.name}}
                                 </div>
                             </div>
