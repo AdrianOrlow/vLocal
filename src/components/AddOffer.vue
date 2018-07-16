@@ -96,7 +96,6 @@ export default {
     },
     newOffer() {
       let offersRef = db.ref("offers");
-      this.addOffer.price += " $";
       offersRef.push(this.addOffer);
       this.$toasted.show("Offer added successfully!", {
         theme: "primary",
